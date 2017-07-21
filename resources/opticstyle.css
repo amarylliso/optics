@@ -1,0 +1,160 @@
+html{
+	font-family: helvetica;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+.strip {
+	background-color: cadetblue;
+	display: inlne;
+	height: 3rem;
+	max-width: 960px;
+	margin: auto;
+}
+.logo {
+	height: 1.5rem;
+	padding-top: .75rem;
+}
+
+.logo nav {
+	display: inline;
+}
+
+nav {
+	float: right;
+	display: inline;
+}
+header{
+	background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+	background-size: cover;
+	height: 30rem;
+}
+
+header h2 {
+	background-color: white;
+	padding: 1.5rem 5rem;
+	float: right;
+	margin-top: 10rem;
+	font-size: 2rem;
+	line-height: 1.2;
+}
+
+li {
+	list-style-type: none;
+	padding: 1rem;
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+	
+}
+
+img {
+	max-width: 5rem;
+}
+
+.other h2 {
+	background-color: cadetblue;
+	padding: .5rem 1.25rem;
+	color: white;
+	text-align: center;
+}
+
+footer img {
+	height: 1rem;
+}
+@media only screen and (max-width: 699px)
+{
+	body {
+		margin: auto;
+		width: 85%;
+	}
+	header {
+		height: 17rem;
+		width: 90%;
+	}
+	
+	h1{
+		display: none;
+	}
+
+	header h2 {
+		width: 100%;
+		margin-top: 9rem;
+		margin-bottom: 3rem;
+		font-size: 1rem;
+		text-align: center;
+		padding: 0;
+		
+	}
+	
+	.dropbtn {
+		background-color: cadetblue;
+		color: white;
+		font-size: 1rem;
+		border:none;
+		cursor: pointer;
+	}
+	
+	.dropdown-content {
+		display: none;
+		background-color: cadetblue;
+		color: white;
+		box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index: 1;
+	}
+	
+	.dropdown-content li {
+		border-top: white 1px dotted;
+	}
+	.dropdown-content a: hover {
+		background-color: seagreen;
+	}
+	
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+	
+	.container {
+		margin-top: 3.77rem;
+		margin-bottom: 3.77rem;
+	}
+	
+	.container img{
+		display: block;
+		margin: auto;	
+	}
+	
+	.container h2 {
+		margin: 1.54rem;
+		text-align: center;
+		font-size: .77rem;
+	}
+	
+	footer p {
+		display: none;
+	}
+	
+	footer img {
+		display: block;
+		margin: auto;
+		padding: 7rem;
+	}
+}
+
+@media only screen and (min-width: 700px){
+	h1 {
+		display: inline;
+		color: white;
+		font-size: 1rem;
+	}
+	
+	ul li {
+		display: inline;
+	}
+	
+	button {
+	display: none;
+}
+}
